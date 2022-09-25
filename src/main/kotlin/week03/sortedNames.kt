@@ -20,6 +20,12 @@ fun main(){
         secondName = thirdName
         thirdName = temp
     }
+    if(firstName > secondName){
+        val temp = firstName
+        firstName = secondName
+        secondName = temp
+    }
+
 
     println("The names ascending are $firstName ,$secondName ,$thirdName"  )
 
