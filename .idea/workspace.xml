@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week02/test2.kt" afterDir="false" />
+    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="hello">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week03/romanNumerals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/week03" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/week02" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/week01" />
     </key>
@@ -58,6 +60,9 @@
       <workItem from="1663077310033" duration="538000" />
       <workItem from="1663078162408" duration="71000" />
       <workItem from="1663078395390" duration="9000" />
+      <workItem from="1663078458608" duration="666000" />
+      <workItem from="1663082314414" duration="1659000" />
+      <workItem from="1664120723555" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1662650857432</created>
@@ -80,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663077417240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1663078486019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663078486019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
