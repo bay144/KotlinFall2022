@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week03/romanNumerals.kt" afterDir="false" />
+    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="romanNumerals.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week03/magicDates.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <workItem from="1663078395390" duration="9000" />
       <workItem from="1663078458608" duration="666000" />
       <workItem from="1663082314414" duration="1659000" />
-      <workItem from="1664120723555" duration="705000" />
+      <workItem from="1664120723555" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1662650857432</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663078486019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="romanNumerals.kt">
+      <created>1664121535187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664121535188</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="romanNumerals.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="romanNumerals.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
