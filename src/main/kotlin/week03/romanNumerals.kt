@@ -1,3 +1,6 @@
+//Ana Osornio Baeza
+//3.1 Roman Numerals
+
 package week03
 fun main (args : Array<String>){
 print ("Write a number between 1 and 10: ")
