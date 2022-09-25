@@ -15,8 +15,4 @@ fun main(){
     else if  (weight < 10){
         print ("That is too light")
     }
-
 }
-
-
-
