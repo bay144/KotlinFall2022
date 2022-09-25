@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="2.8 String Manipulator">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week03/bankCharges.kt" afterDir="false" />
+    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="3.8 Bank Charges">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week04/sumOfNumbers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/week04" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/week03" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/week02" />
       <recent name="$PROJECT_DIR$/src" />
@@ -77,7 +78,7 @@
       <workItem from="1663078458608" duration="666000" />
       <workItem from="1663082314414" duration="1659000" />
       <workItem from="1664120723555" duration="2268000" />
-      <workItem from="1664123400505" duration="10289000" />
+      <workItem from="1664123400505" duration="11967000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1662650857432</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664135109269</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3.8 Bank Charges">
+      <created>1664137221136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664137221137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +189,8 @@
     <MESSAGE value="3.5 Sorted Names" />
     <MESSAGE value="3.7 Restaurant Selector" />
     <MESSAGE value="2.8 String Manipulator" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.8 String Manipulator" />
+    <MESSAGE value="3.8 Bank Charges" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.8 Bank Charges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
