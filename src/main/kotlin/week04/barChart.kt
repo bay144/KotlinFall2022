@@ -1,7 +1,7 @@
 /* Ana Osornio Baeza
 4.4 Bar Chart
  09/25/2022 */
-
+package week04
 fun main(){
     print("Enter today's sales for store 1: ")
     var store1 = Integer.valueOf(readLine())
