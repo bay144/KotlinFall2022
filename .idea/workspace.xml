@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="4.2 Letter Counter">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week04/population.kt" afterDir="false" />
+    <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="4.3 Population">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/week04/barChart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/randomNumberGenerator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
       <workItem from="1664123400505" duration="12285000" />
       <workItem from="1664139143760" duration="1000" />
       <workItem from="1664139294428" duration="2159000" />
-      <workItem from="1664152683158" duration="897000" />
+      <workItem from="1664152683158" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1662650857432</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664140263185</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="4.3 Population">
+      <created>1664153748447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664153748447</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
     <MESSAGE value="3.8 Bank Charges" />
     <MESSAGE value="4.1 Sum of Numbers" />
     <MESSAGE value="4.2 Letter Counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2 Letter Counter" />
+    <MESSAGE value="4.3 Population" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3 Population" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
