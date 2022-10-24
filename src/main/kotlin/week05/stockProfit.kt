@@ -2,16 +2,23 @@ package week05
 //5.6 Stock Profit
 //Ana Osornio Baeza
 
-/*
-The profit from the sale of a stock can be calculated as follows:
-Profit=((NS×SP)−SC)−((NS×PP)+PC)
-where NS is the number of shares, PP is the purchase price per share, PC is the purchase commission paid,
-SP is the sale price per share, and SC is the sale commission paid.
-If the calculation yields a positive value, then the sale of the stock resulted in a profit.
-If the calculation yields a negative number, then the sale resulted in a loss.
-Write a function that accepts as arguments the number of shares, the purchase price per share,
-the purchase commission paid, the sale price per share, and the sale commission paid.
-The method should return the profit (or loss) from the sale of stock. Demonstrate the function
-in a program that asks the user to enter the necessary data and displays the amount of the profit or loss.
-Create a file named stockProfit.kt and save it in your week05 folder in Github.
- */
+fun main() {
+    println("Number of shares: ")
+    val NS = readLine()!!.toInt()
+    println("Purchase price per share: ")
+    val PP = readLine()!!.toDouble()
+    println("Purchase commission paid: ")
+    val PC = readLine()!!.toDouble()
+    println("Sale price per share: ")
+    val SP = readLine()!!.toDouble()
+    println("Sales commission: ")
+    val SC = readLine()!!.toDouble()
+    val total = profit(NS,PP,PC,SP,SC)
+    if(total > 0)
+        println("Profit: $$total")
+    else
+        println("Loss: $$total")
+}
+fun profit(NS:Int, PP:Double, PC:Double, SP:Double, SC:Double) : Double{
+    return ((NS*SP)-SC)-((NS*PP)+PC)
+}
