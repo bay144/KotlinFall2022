@@ -1,4 +1,5 @@
 package week05
+
 //5.7 Rock Paper Scissors Game
 // Ana Osornio Baeza
 
@@ -18,3 +19,41 @@ If both players make the same choice, the game must be played again to determine
 Be sure to divide the program into functions that perform each major task.
 Create a file named rockPaperScissors.kt and save it in your week05 folder in Github.
  */
+
+fun main(){
+    Game()
+}
+fun Game(){
+    val computer = (1..3).random()
+    println(" Rock: 1 \n Paper: 2 \n Scissors: 3 \n Enter a guess:  ")
+    val user = readLine()!!.toInt()
+
+    when (computer) {
+        1 -> { println("Computer: Rock")
+        }
+        2 -> { println("Computer: Paper")
+        }
+        3 -> { println("Computer: Scissors")
+        }
+    }
+
+
+    if (computer == 1 && user == 1)
+        println("It's a tie! Play again")
+    else if (computer == 1 && user == 2)
+        println("You Won!")
+    else if (computer == 1 && user == 3)
+        println("You Lost!")
+    else if (computer == 2 && user == 1)
+        println("You Won!")
+    else if (computer == 2 && user == 2)
+        println("It's a tie! Play again")
+    else if (computer == 2 && user == 3)
+        println("You Lost!")
+    else if (computer == 3 && user == 1)
+        println("You Won!")
+    else if (computer == 3 && user == 2)
+        println("You Lost!")
+    else if (computer == 3 && user == 3)
+        println("It's a tie! Play again")
+    }

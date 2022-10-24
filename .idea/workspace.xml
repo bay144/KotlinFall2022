@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfbfde38-db95-4036-83a5-944e0ecf1338" name="Changes" comment="Assignments">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week05/stockProfit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/week05/stockProfit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/week05/rockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/week05/rockPaperScissors.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1666107041551" duration="531000" />
       <workItem from="1666276283941" duration="3069000" />
       <workItem from="1666324514940" duration="746000" />
-      <workItem from="1666580036388" duration="4553000" />
+      <workItem from="1666580036388" duration="7853000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1662650857432</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666584225650</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Assignments">
+      <created>1666584671238</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666584671238</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
