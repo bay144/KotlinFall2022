@@ -12,3 +12,14 @@ Demonstrate the method by calling it in a loop that displays a table of the Fahr
 through 20 and their Celsius equivalents.
 Create a file named celsiusTable.kt and save it in your week05 folder in Github.
  */
+
+
+fun main() {
+    println("Farenheit | Celsius")
+    for(i in 0..20) {
+        println("$i        |"  + C((i.toDouble())))
+    }
+}
+fun C(F: Double) :Double {
+   return (F - 32) * (5.0/9)
+}
