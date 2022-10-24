@@ -1,5 +1,4 @@
 package week05
-import kotlin.math.pow
 // 5.4 Falling Distance
 // Ana Osornio Baeza
 
@@ -10,6 +9,6 @@ fun main(){
 } }
 fun fallingDistance(t: Double): Double {
     val g = 9.8
-    return 0.5 * (g * (t.pow(2.0)))
+    return 0.5 * (g*(t*t))
 }
 
