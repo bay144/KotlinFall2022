@@ -1,11 +1,15 @@
 package week05
+import kotlin.math.pow
 // 5.4 Falling Distance
 // Ana Osornio Baeza
 
-/*
-When an object is falling because of gravity, the following formula can be used to determine the distance the object falls in a specific time period:
-d=1/2(gt2)
-The variables in the formula are as follows: d is the distance in meters, g is 9.8, and t is the amount of time, in seconds, that the object has been falling.
-Write a function named fallingDistance that accepts an object’s falling time (in seconds) as an argument. The method should return the distance, in meters, that the object has fallen during that time interval. Demonstrate the method by calling it in a loop that passes the values 1 through 10 as arguments, and displays the return value.
-Create a file named fallingDistance.kt and save it in your week05 folder in Github.
- */
+fun main(){
+    println("Seconds | Meters fallen")
+    for(i in 1..10){
+        println("$i       |" + fallingDistance(i.toDouble()))
+} }
+fun fallingDistance(t: Double): Double {
+    val g = 9.8
+    return 0.5 * (g * (t.pow(2.0)))
+}
+
